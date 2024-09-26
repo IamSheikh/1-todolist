@@ -1,4 +1,4 @@
-import { useState, FormEvent, useEffect } from "react";
+import { useState, FormEvent } from "react";
 
 interface Task {
   id: number;
