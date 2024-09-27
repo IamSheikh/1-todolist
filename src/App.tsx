@@ -24,7 +24,20 @@ const App = () => {
   return (
     <div className="flex justify-center items-center flex-col mt-4">
       <h1 className="text-4xl font-bold">
-        <span className="text-purple-500">Allison Burgers</span> Todo List
+        <span className="text-red-500">A</span>
+        <span className="text-orange-500">l</span>
+        <span className="text-yellow-300">l</span>
+        <span className="text-green-500">i</span>
+        <span className="text-blue-500">s</span>
+        <span className="text-violet-500">o</span>
+        <span className="text-red-500">n</span>{" "}
+        <span className="text-orange-500">B</span>
+        <span className="text-yellow-300">u</span>
+        <span className="text-green-500">r</span>
+        <span className="text-blue-500">g</span>
+        <span className="text-violet-500">e</span>
+        <span className="text-red-500">r</span>
+        <span className="text-orange-500">s</span> Todo List
       </h1>
       <form onSubmit={handleForm} className="mt-4">
         <input
